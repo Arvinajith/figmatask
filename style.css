@@ -1,1 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin-top: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width : 1170px;
+    height: 114px;
+}
+button{
+    border: none;
+    background-color:white;
+    cursor: pointer;
+    font-family: "poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav{
+    display: flex;
+    gap:2rem;
+}
+.login-btn{
+       color:#fd8d3a;
+       font-weight:400;
+}
+.sign-btn{
+    background-color: #fd8d3a;
+    color: white;
+    width:120px;
+    height: 30px;
+    border-radius: 6px;
+}
+.actions{
+    display:flex;
+    align-items: center;
+    gap:3rem;
+}
+.journey{
+    color:#fd8d3a;
+}
+.Discover-btn{
+    border: 1px solid black;
+    border-color: #fd8d3a;
+    background-color: white;
+    color:#fd8d3a;
+    font-size: 10px;
+    width:90px;
+    height:30px;
+    border-radius:2px;
+
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:40px;
+}
+.journey{
+    color:#fd8d3a;
+}
+.man{
+    width:40vw;
+    height:50vh;
+    
+}
+.flight{
+    width:40vw;
+    height:20vh;
+}
+.circle{
+    height:250px;
+    width:250px;
+    background-color: #fd8d3a;
+    border-radius: 50%;
+
+}
+.location{
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap:2rem;
+    padding:50px;
+    background-color: #FFFFFF;
+    align-items:center;
+}
+.loc-btn{
+    color: white;
+    background-color:#fd8d3a;
+    border: 2px #fd8d3a; 
+    font-size: 15px;
+    width: 120px;
+    height:40px;
+    border-radius: 3px;
+}
+.about{
+    background-color: #F7F8FC;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.para{
+    display: flex;
+    justify-content:center;
+}
+.todo{
+    color:#fd8d3a;
+}
+.three-image{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.sign-image{
+    background-color: #ffffff;
+    width:200px;
+    height:200px;
+    padding: 20px;
+    font-size: 10px;
+}
+.money-image{
+    background-color: #ffffff;
+    width:200px;
+    height:200px;
+    padding: 20px;
+    font-size: 10px;
+}
+.travel-image{
+    background-color: #ffffff;
+    width:200px;
+    height:200px;
+    padding: 20px;
+    font-size: 10px;
+}
+.aero1{
+   width:90px;
+   height:90px;
+}
+.dis{
+    color:#fd8d3a;
+}
+.dis-head{
+    display: flex;
+    justify-content:center;
+}
+.dis-para{
+     display: flex;
+    justify-content:center;
+}
+.dis-image{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:50px;
+}
+.dis-image-size{
+    width:140px;
+    height:250px;
+}
+.dis-image-size2{
+    width:240px;
+    height:340px;
+}
+.dis-image-size3{
+    width:280px;
+    height:350px;
+    padding: 50px;
+}
+.side-aero{
+    display:flex;
+    justify-content: center;
+}
+.vacation-head{
+    display:flex;
+    justify-content: center;
+    
+}
+.vacation-para{
+    display: flex;
+    justify-content: center;
+   
+}
+.best{
+    padding:80px
+}
+.tree-image{
+    width: 50px;
+    height: 40px;
+}
+.side2{
+    display:flex;
+    float:right;
+}
+.vacation-image{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 60px;
+    align-items:center;
+     float:center;
+     margin: 0 auto;
+}
+.place{
+    width:350px;
+    height:350px;
+    padding:50px;
+    margin:auto;
+}
+.people{
+    background-color: #F7F8FC;
+    display: flex;
+    justify-content: space-between;
+}
+.card-image{
+    display:flex;
+    justify-content:space-between;
+
+}
+.picture{
+    width:120px;
+    height:160px;
+}
+.subscribe{
+    width:700px;
+    height:350px;
+    padding:50px;
+}
+.social{
+    display:flex;
+    float:left;
+}
+.company{
+    display:flex;
+    justify-content:space-between;
+
+}
+.last-para1{
+    float:left;
+}
+.last-para2{
+    float:right;
+}
+
+
+
+
+
 
